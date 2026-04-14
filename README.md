@@ -60,3 +60,16 @@ The server runs at `http://localhost:3000`
 ---
 
 ## 🗂️ Project Structure
+├── controllers/       # Business logic
+├── models/            # Mongoose schema/model
+├── routes/            # Express route definitions
+├── server.js          # App entry point
+├── .env.example       # Environment variable template
+└── README.md
+
+## ✅ Features
+- Create, Read, Update, Delete tasks
+- Validation: title cannot be empty
+- Cannot mark an already-completed task as complete
+- Bonus: Due dates and categories supported
+- Graceful error handling with meaningful messages
