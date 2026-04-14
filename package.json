@@ -1,0 +1,30 @@
+{
+  "name": "chaintechinternshipproject",
+  "version": "1.0.0",
+  "description": "Intership assesment project for Chaintech network. Nodejs project",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyash-jaiswal2/ChaintechInternshipProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/suyash-jaiswal2/ChaintechInternshipProject/issues"
+  },
+  "homepage": "https://github.com/suyash-jaiswal2/ChaintechInternshipProject#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
